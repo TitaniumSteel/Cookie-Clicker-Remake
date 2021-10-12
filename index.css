@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+	overflow: hidden;
+}
+
+body {
+	background-image: url(background.png);
+}
+
+#cookieAmount {
+	display: inline;
+}
+
+#cookie {
+	width: 524px;
+	padding-top: 10%;
+	cursor: pointer;
+	transition: width 0.1s, height 0.1s, padding-top 0.1s;
+}
+
+#cookieCaption {
+	display: inline;
+}
+
+.header {
+	background-color: rgb(0,0,0,0.5);
+}
+
+#menu-button {
+	cursor: pointer;
+	padding: 2%;
+	padding-top: 1%;
+	font-size: 300%;
+	display: inline-block;
+}
+
+.cookieTeller {
+	position: relative;
+	bottom: 50px;
+	padding-top: 1%;
+	opacity: 1;
+	color: white;	
+}
+
+.upgrades {
+	background-color: rgb(0,0,0,0.5);
+	height: 30%;
+	width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.upgrades span, p {
+	cursor: pointer;
+	color: white;
+	padding-top: 1%;
+	padding-left: 2%;
+	font-weight: 900;
+}
